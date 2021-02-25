@@ -20,3 +20,8 @@ spring:
 #    schema: classpath:db/schema.sql
 #    #进行该配置后，每次启动程序，程序都会运行resources/db/data.sql文件，对数据库的数据操作。
 #    data: classpath:db/data.sql
+
+
+# 测试自动配置
+demo:
+  name: test auto configure
