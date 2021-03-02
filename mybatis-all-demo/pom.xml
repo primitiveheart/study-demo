@@ -5,17 +5,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.zgb</groupId>
-  <artifactId>study-demo</artifactId>
+  <artifactId>mybatis-all-demo</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>demo</module>
-    <module>java-demo</module>
-    <module>mybatis-all-demo</module>
-    <module>mybatis-all-demo</module>
+    <module>mybatis-demo</module>
+    <module>mybatis-spring-demo</module>
   </modules>
   <packaging>pom</packaging>
 
-  <name>study-demo</name>
+  <name>mybatis-all-demo Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -35,7 +33,7 @@
   </dependencies>
 
   <build>
-    <finalName>study-demo</finalName>
+    <finalName>mybatis-all-demo</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

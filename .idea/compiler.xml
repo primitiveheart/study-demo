@@ -8,17 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="demo-spring-boot-starter" />
+        <module name="mybatis-spring-boot-demo" />
+        <module name="test-demo" />
         <module name="spring-boot-demo" />
         <module name="demo-spring-boot-autoconfigure" />
-        <module name="test-demo" />
+        <module name="mybatis-demo" />
+        <module name="java-demo" />
+        <module name="mybatis-spring-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-all-demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="autoconfigure-demo" options="-parameters" />
       <module name="demo-spring-boot-autoconfigure" options="-parameters" />
       <module name="demo-spring-boot-starter" options="-parameters" />
+      <module name="mybatis-spring-boot-demo" options="-parameters" />
       <module name="spring-boot-demo" options="-parameters" />
       <module name="test-demo" options="-parameters" />
     </option>

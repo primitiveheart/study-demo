@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+  <!-- 拦截器 -->
+  <plugins>
+    <plugin interceptor="com.zgb.mybatis.spring.demo.common.plugin.PageInterceptor">
+    </plugin>
+  </plugins>
+</configuration>
