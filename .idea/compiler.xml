@@ -16,6 +16,12 @@
         <module name="java-demo" />
         <module name="mybatis-spring-demo" />
       </profile>
+      <profile name="Annotation profile for spark-demo" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spark-demo" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis-all-demo" target="1.8" />

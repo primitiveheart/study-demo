@@ -29,6 +29,7 @@
     <plugin interceptor="com.zgb.mybatis.demo.plugin.ExamplePlugin">
       <property name="someProperty" value="100"/>
     </plugin>
+    <plugin interceptor="com.zgb.mybatis.demo.plugin.PageInterceptor"></plugin>
   </plugins>
 
   <environments default="development">

@@ -30,4 +30,27 @@
     update users set name = #{name}, city = #{city} where id = #{id}
   </update>
 
+  <select id="listByConditions" parameterType="studentQuery" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_student
+    <where>
+      <if test="ids != null and ids.size() > 0">
+        AND id IN
+        <foreach collection="ids" item="item" open="(" close=")" separator=",">
+          #{item}
+        </foreach>
+      </if>
+      <if test="name != null and name != ''">
+        AND name LIKE CONCAT('%', #{name}, '%')
+      </if>
+      <if test="sex != null">
+        AND sex = #{sex}
+      </if>
+      <if test="selfcardNo != null">
+        AND selfcard_no = #{selfcardNo}
+      </if>
+    </where>
+  </select>
+
 </mapper>

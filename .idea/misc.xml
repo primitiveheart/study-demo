@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/autoconfigure-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-all-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-all-demo/mybatis-spring-boot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spark-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
