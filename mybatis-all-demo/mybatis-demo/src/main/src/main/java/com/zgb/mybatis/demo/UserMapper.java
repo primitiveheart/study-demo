@@ -9,4 +9,6 @@ package com.zgb.mybatis.demo;
  */
 public interface UserMapper {
     UserDO selectUser(Integer id);
+
+    void updateUserById(UserDO userDO);
 }

@@ -52,7 +52,7 @@ public class TestDemo {
     // 解析
     SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
     method1(sqlSessionFactory);
-    method1(sqlSessionFactory);
+//    method2(sqlSessionFactory);
   }
 
   private static void method1(SqlSessionFactory sqlSessionFactory) {
