@@ -22,18 +22,33 @@
 
 <mapper namespace="com.zgb.mybatis.demo.UserMapper">
 
+  <cache/>
+
+  <resultMap id="baseResultMap" type="userDo">
+    <id property="id" column="id"/>
+    <result property="name" column="name"/>
+    <result property="city" column="city"/>
+  </resultMap>
+
+  <sql id="Base_Column_List">
+    id, name, city
+  </sql>
+
   <select id="selectUser" parameterType="int" resultType="com.zgb.mybatis.demo.UserDO" useCache="true">
-    select id, name, city from users where id = #{id}
+    select
+    <include refid="Base_Column_List">
+    </include>
+    from users where id = #{id}
   </select>
 
   <update id="updateUserById" parameterType="userDo">
-    update users set name = #{name}, city = #{city} where id = #{id}
+            update users set name = #{name}, city = #{city} where id = #{id}
   </update>
 
-  <select id="listByConditions" parameterType="studentQuery" resultMap="BaseResultMap">
+  <select id="listByConditions" parameterType="userQuery" resultMap="baseResultMap">
     select
-    <include refid="Base_Column_List" />
-    from t_student
+    <include refid="Base_Column_List"/>
+    from users
     <where>
       <if test="ids != null and ids.size() > 0">
         AND id IN
@@ -44,13 +59,6 @@
       <if test="name != null and name != ''">
         AND name LIKE CONCAT('%', #{name}, '%')
       </if>
-      <if test="sex != null">
-        AND sex = #{sex}
-      </if>
-      <if test="selfcardNo != null">
-        AND selfcard_no = #{selfcardNo}
-      </if>
     </where>
   </select>
-
 </mapper>

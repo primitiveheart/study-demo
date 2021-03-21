@@ -6,25 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="quartz-definition" />
+        <module name="client" />
+        <module name="quartz-sdk" />
         <module name="demo" />
-        <module name="demo-spring-boot-starter" />
-        <module name="mybatis-spring-boot-demo" />
-        <module name="test-demo" />
-        <module name="spring-boot-demo" />
-        <module name="demo-spring-boot-autoconfigure" />
-        <module name="mybatis-demo" />
-        <module name="java-demo" />
+        <module name="quartz-admin" />
         <module name="mybatis-spring-demo" />
-      </profile>
-      <profile name="Annotation profile for spark-demo" enabled="true">
-        <sourceOutputDir name="../../target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spark-demo" />
+        <module name="java-demo" />
+        <module name="spring-mvc-demo" />
+        <module name="spring-mvc-definition-demo" />
+        <module name="mybatis-spring-boot-demo" />
+        <module name="demo-spring-boot-autoconfigure" />
+        <module name="demo-spring-boot-starter" />
+        <module name="spring-boot-demo" />
+        <module name="spring-quartz-demo" />
+        <module name="quartz-common" />
+        <module name="spark-scala-demo" />
+        <module name="mybatis-demo" />
+        <module name="spring-boot-quartz-demo" />
+        <module name="server" />
+        <module name="test-demo" />
+        <module name="quartz-core" />
+        <module name="akka-rpc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis-all-demo" target="1.8" />
+      <module name="spark-demo" target="1.8" />
+      <module name="spring-boot-mvc-demo" target="1.8" />
+      <module name="spring-mvc-all-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,7 +43,13 @@
       <module name="demo-spring-boot-autoconfigure" options="-parameters" />
       <module name="demo-spring-boot-starter" options="-parameters" />
       <module name="mybatis-spring-boot-demo" options="-parameters" />
+      <module name="quartz-admin" options="-parameters" />
+      <module name="quartz-common" options="-parameters" />
+      <module name="quartz-core" options="-parameters" />
+      <module name="quartz-definition" options="-parameters" />
+      <module name="quartz-sdk" options="-parameters" />
       <module name="spring-boot-demo" options="-parameters" />
+      <module name="spring-boot-quartz-demo" options="-parameters" />
       <module name="test-demo" options="-parameters" />
     </option>
   </component>

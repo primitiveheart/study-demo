@@ -8,4 +8,8 @@
     <plugin interceptor="com.zgb.mybatis.spring.demo.common.plugin.PageInterceptor">
     </plugin>
   </plugins>
+
+  <mappers>
+    <mapper class="com.zgb.mybatis.spring.demo.business.mapper" />
+  </mappers>
 </configuration>

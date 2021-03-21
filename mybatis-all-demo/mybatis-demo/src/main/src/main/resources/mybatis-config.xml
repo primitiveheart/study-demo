@@ -13,6 +13,7 @@
   <!-- 类型别名:类型别名可为 Java 类型设置一个缩写名字。 它仅用于 XML 配置，意在降低冗余的全限定类名书写。 -->
   <typeAliases>
     <typeAlias type="com.zgb.mybatis.demo.UserDO" alias="userDO"/>
+    <typeAlias type="com.zgb.mybatis.demo.page.UserQuery" alias="userQuery"/>
   </typeAliases>
 
   <!-- 类型处理器：MyBatis 在设置预处理语句（PreparedStatement）中的参数或从结果集中取出一个值时，
@@ -29,7 +30,7 @@
     <plugin interceptor="com.zgb.mybatis.demo.plugin.ExamplePlugin">
       <property name="someProperty" value="100"/>
     </plugin>
-    <plugin interceptor="com.zgb.mybatis.demo.plugin.PageInterceptor"></plugin>
+    <plugin interceptor="com.zgb.mybatis.demo.page.PageInterceptor"></plugin>
   </plugins>
 
   <environments default="development">

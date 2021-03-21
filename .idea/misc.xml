@@ -26,11 +26,20 @@
         <option value="$PROJECT_DIR$/mybatis-all-demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-all-demo/mybatis-spring-boot-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spark-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-all-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/register-center-all-demo/client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-schedule-all-demo/spring-boot-quartz-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-schedule-all-demo/spring-quartz-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/quartz-sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/quartz-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/quartz-common/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/mybatis-all-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-all-demo/pom.xml" />
       </set>
     </option>
   </component>

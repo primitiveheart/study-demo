@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatis-all-demo/mybatis-all-demo.iml" filepath="$PROJECT_DIR$/mybatis-all-demo/mybatis-all-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-all-demo/spring-boot-mvc-demo/spring-boot-mvc-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-all-demo/spring-boot-mvc-demo/spring-boot-mvc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-all-demo/spring-mvc-all-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-all-demo/spring-mvc-all-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-schedule-all-demo/spring-schedule-all-demo.iml" filepath="$PROJECT_DIR$/spring-schedule-all-demo/spring-schedule-all-demo.iml" />
     </modules>
   </component>
 </project>

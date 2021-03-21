@@ -11,8 +11,23 @@
     <file url="file://$PROJECT_DIR$/mybatis-all-demo/mybatis-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-all-demo/mybatis-spring-boot-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-all-demo/mybatis-spring-demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spark-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register-center-all-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register-center-all-demo/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/register-center-all-demo/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark-all-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark-all-demo/akka-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spark-all-demo/spark-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-all-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-all-demo/spring-mvc-definition-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mvc-all-demo/spring-mvc-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/quartz-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/quartz-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/quartz-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/quartz-definition/quartz-sdk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/spring-boot-quartz-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/spring-quartz-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-demo" charset="UTF-8" />
   </component>
 </project>

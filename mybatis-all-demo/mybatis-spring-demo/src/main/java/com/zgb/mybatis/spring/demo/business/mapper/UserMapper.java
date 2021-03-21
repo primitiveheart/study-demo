@@ -14,3 +14,4 @@ public interface UserMapper {
   @Select("SELECT * FROM users WHERE id = #{id}")
   UserDO getUser(@Param("id") String userId);
 }
+

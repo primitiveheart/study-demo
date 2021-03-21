@@ -12,6 +12,11 @@
     <module>java-demo</module>
     <module>mybatis-all-demo</module>
     <module>mybatis-all-demo</module>
+    <module>spring-mvc-all-demo</module>
+    <module>spark-all-demo</module>
+    <module>spring-mvc-all-demo</module>
+    <module>register-center-all-demo</module>
+    <module>spring-quartz-all-demo</module>
   </modules>
   <packaging>pom</packaging>
 

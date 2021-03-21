@@ -1,0 +1,2 @@
+scala is simple language
+scala array

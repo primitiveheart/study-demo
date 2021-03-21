@@ -1,5 +1,8 @@
 package com.zgb.mybatis.demo;
 
+import com.zgb.mybatis.demo.page.UserQuery;
+
+import java.util.List;
 
 /**
  * @author xmly
@@ -8,7 +11,9 @@ package com.zgb.mybatis.demo;
  * @Created By guanbao.zhou
  */
 public interface UserMapper {
-    UserDO selectUser(Integer id);
+  UserDO selectUser(Integer id);
 
-    void updateUserById(UserDO userDO);
+  void updateUserById(UserDO userDO);
+
+  List<UserDO> listByConditions(UserQuery userQuery);
 }

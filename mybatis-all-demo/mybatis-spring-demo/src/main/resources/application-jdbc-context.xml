@@ -8,27 +8,31 @@
 
   <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
         destroy-method="close" lazy-init="false">
-    <property name="url" value="${jdbc.url}" />
-    <property name="username" value="${jdbc.username}" />
-    <property name="password" value="${jdbc.password}" />
-    <property name="driverClassName" value="${jdbc.driver}" />
+    <property name="url" value="jdbc:mysql://127.0.0.1:3306/test" />
+    <property name="username" value="root" />
+    <property name="password" value="root" />
+    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+<!--    <property name="url" value="${jdbc.url}" />-->
+<!--    <property name="username" value="${jdbc.username}" />-->
+<!--    <property name="password" value="${jdbc.password}" />-->
+<!--    <property name="driverClassName" value="${jdbc.driver}" />-->
 
-    <property name="maxActive" value="${jdbc.maxActive}" />
-    <property name="initialSize" value="${jdbc.initialSize}" />
-    <property name="maxWait" value="${jdbc.maxWait}" />
-    <property name="minIdle" value="${jdbc.minIdle}" />
+<!--    <property name="maxActive" value="${jdbc.maxActive}" />-->
+<!--    <property name="initialSize" value="${jdbc.initialSize}" />-->
+<!--    <property name="maxWait" value="${jdbc.maxWait}" />-->
+<!--    <property name="minIdle" value="${jdbc.minIdle}" />-->
 
-    <property name="timeBetweenEvictionRunsMillis" value="${jdbc.timeBetweenEvictionRunsMillis}" />
-    <property name="minEvictableIdleTimeMillis" value="${jdbc.minEvictableIdleTimeMillis}" />
+<!--    <property name="timeBetweenEvictionRunsMillis" value="${jdbc.timeBetweenEvictionRunsMillis}" />-->
+<!--    <property name="minEvictableIdleTimeMillis" value="${jdbc.minEvictableIdleTimeMillis}" />-->
 
-    <property name="testWhileIdle" value="${jdbc.testWhileIdle}" />
-    <property name="testOnBorrow" value="${jdbc.testOnBorrow}" />
-    <property name="testOnReturn" value="${jdbc.testOnReturn}" />
+<!--    <property name="testWhileIdle" value="${jdbc.testWhileIdle}" />-->
+<!--    <property name="testOnBorrow" value="${jdbc.testOnBorrow}" />-->
+<!--    <property name="testOnReturn" value="${jdbc.testOnReturn}" />-->
 
-    <property name="poolPreparedStatements" value="${jdbc.poolPreparedStatements}" />
-    <property name="maxOpenPreparedStatements" value="${jdbc.maxOpenPreparedStatements}" />
+<!--    <property name="poolPreparedStatements" value="${jdbc.poolPreparedStatements}" />-->
+<!--    <property name="maxOpenPreparedStatements" value="${jdbc.maxOpenPreparedStatements}" />-->
 
-    <property name="filters" value="stat" />
+<!--    <property name="filters" value="stat" />-->
   </bean>
 
 
@@ -37,13 +41,18 @@
     <!--  mybatis 配置文件  -->
     <property name="configLocation"  value="classpath:mybatis-config.xml"></property>
     <!--  mapper 文件  -->
-    <property name="mapperLocations" value="classpath*:mapper/*xml"></property>
+<!--    <property name="mapperLocations" value="classpath*:mapper/*xml"></property>-->
   </bean>
 
 
-  <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-    <property name="mapperInterface" value="com.zgb.mybatis.spring.demo.business.mapper.UserMapper" />
-    <property name="sqlSessionFactory" ref="sqlSessionFactory" />
-  </bean>
+<!--  <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">-->
+<!--    <property name="mapperInterface" value="com.zgb.mybatis.spring.demo.business.mapper.UserMapper" />-->
+<!--    <property name="sqlSessionFactory" ref="sqlSessionFactory" />-->
+<!--  </bean>-->
+  
+  <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="com.zgb.mybatis.spring.demo.business.mapper"/>
+    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+   </bean>
 
 </beans>
