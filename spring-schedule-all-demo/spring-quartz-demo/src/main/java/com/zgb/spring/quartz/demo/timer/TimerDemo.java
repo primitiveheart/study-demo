@@ -18,7 +18,7 @@ public class TimerDemo {
     for (int i = 0; i < 2; i++) {
       TimerTask task = new FooTask("foo" + i);
       // 任务添加
-//      timer.schedule(task, new Date(), 2000);
+      timer.schedule(task, new Date(), 2000);
       timer.scheduleAtFixedRate(task, new Date(), 2000);
       // 假设开始时间：12:00:00
       // 预设的执行时间nextExecuteTime 12:00:02, 12:00:04

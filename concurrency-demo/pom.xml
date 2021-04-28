@@ -5,26 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.zgb</groupId>
-  <artifactId>study-demo</artifactId>
+  <artifactId>concurrency-demo</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>demo</module>
-    <module>java-demo</module>
-    <module>mybatis-all-demo</module>
-    <module>mybatis-all-demo</module>
-    <module>spring-mvc-all-demo</module>
-    <module>spark-all-demo</module>
-    <module>spring-mvc-all-demo</module>
-    <module>register-center-all-demo</module>
-    <module>spring-quartz-all-demo</module>
-    <module>concurrency-demo</module>
-    <module>spring-mq</module>
-    <module>common</module>
-    <module>web-common</module>
-  </modules>
-  <packaging>pom</packaging>
+  <packaging>war</packaging>
 
-  <name>study-demo</name>
+  <name>concurrency-demo Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -44,7 +29,7 @@
   </dependencies>
 
   <build>
-    <finalName>study-demo</finalName>
+    <finalName>concurrency-demo</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

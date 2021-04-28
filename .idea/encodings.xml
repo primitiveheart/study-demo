@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/autoconfigure-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autoconfigure-demo/demo-spring-boot-autoconfigure" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/autoconfigure-demo/demo-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/concurrency-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-all-demo" charset="UTF-8" />
@@ -18,6 +20,7 @@
     <file url="file://$PROJECT_DIR$/spark-all-demo/akka-rpc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spark-all-demo/spark-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc-all-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc-all-demo/spring-mvc-definition-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mvc-all-demo/spring-mvc-demo" charset="UTF-8" />
@@ -29,5 +32,6 @@
     <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/spring-boot-quartz-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-schedule-all-demo/spring-quartz-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-common" charset="UTF-8" />
   </component>
 </project>
